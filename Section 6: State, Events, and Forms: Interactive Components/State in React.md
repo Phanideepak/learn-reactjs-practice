@@ -5,3 +5,9 @@
 
 
 Note: Don't set component's state value manually because it won't trigger component rendering. 
+
+
+# Difference between State and Props in React
+- State is internal data owned by component. Props is external data owned by parent component.
+- Component can update its state. Props is read only.
+- Updating state causes component to re-render. Child component get's render when it receives new component values. 

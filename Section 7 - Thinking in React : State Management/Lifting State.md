@@ -1,0 +1,1 @@
+- If two sibling components want to share a State then their parent should have that shared state. Parent should pass that shared state to the sibling.

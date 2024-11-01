@@ -1,9 +1,0 @@
-.container{
-   text-align: center;
-   align-items: center;
-}
-
-.container .row{
-  display: flex;
-  flex-direction: row;
-}

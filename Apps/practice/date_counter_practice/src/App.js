@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Header from "./components/header/Header";
+import Footer from './components/footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,8 @@ function App() {
 
   return (
     <div className="container">
+      <Header />
+
       <div className="row">
          
          <button onClick={minus}>-</button>
@@ -37,6 +41,8 @@ function App() {
             )
           }
       </div> 
+
+      <Footer />
 
     </div>
      
