@@ -1,0 +1,1 @@
+In this section, we deal with component splitting and usage of flex, grid layours.

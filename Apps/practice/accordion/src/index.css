@@ -1,0 +1,25 @@
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.question-list{
+   display: grid;
+   gap : 20px;
+}
+
+.question{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 0.9fr auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.question.border-top{
+    border-top: 4px solid green;
+}
+
+.active{
+    color: green;
+}
