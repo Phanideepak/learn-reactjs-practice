@@ -1,0 +1,10 @@
+- Break the desired UI into components and establish the component tree.
+- Build a static version in React.
+- Think about state
+   - where to use state
+   - types of state: local vs global
+   - where to place each state
+- Establish data flow
+  - one way data flo
+  - child to parent communication
+  - accessing global state.

@@ -1,0 +1,1 @@
+- Passing Data from Parent Component to Child component through props.
