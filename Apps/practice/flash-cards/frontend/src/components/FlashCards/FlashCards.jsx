@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const FlashCards = () => {
   
-  const [selectedElement, setSelectedElement] = useState(-1)  
+  const [selectedElement, setSelectedElement] = useState(-1)
 
   function toggleCard(id){
      setSelectedElement(selectedElement === id ? -1 : id)
